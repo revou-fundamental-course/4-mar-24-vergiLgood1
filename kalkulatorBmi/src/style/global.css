@@ -1,0 +1,257 @@
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.features{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.catatan{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.split-screen {
+   display: flex;
+   justify-content: center;
+}
+
+.container {
+    
+}
+
+.form-container {
+ justify-content: center;
+}
+
+.container-output {
+    width: 300px;
+    margin: 0px 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-size: 12px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.container-output h2{
+    color: #0f2027;
+    text-align: center;
+    margin: 16px 0px 40px 0px;  
+}
+
+.category{
+    color: #0f2027;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    font-weight: 600;  
+    font-size: 14px;
+}
+
+.skorBmi{
+    color: #0f2027;
+    text-align: center;
+    font-size: 36px;
+    margin: 0px 0px;
+}
+
+.category2{
+    color: #0f2027;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+}
+.conclusion{
+    text-align: justify;
+    margin: 20px 0px 0px 0px;
+}
+
+.conclusion p {
+    color: #0f2027;
+    text-align: justify;
+    font-size: 12px;
+}
+
+button#konsultasi{
+  background-color: rgb(41, 57, 194);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  margin: 60px 4px 0px 4px;               
+}
+button#download{
+  background-color: rgb(41, 57, 194);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin: 60px 4px 0px 4px;   
+}
+
+.conclusion button{
+    margin: 60px 4px 0px 4px;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#form {
+    width: 300px;
+    margin: 0px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-size: 12px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+#form h2 {
+    color: #0f2027;
+    text-align: center;
+    margin: 16px 0px 40px 0px;
+}
+
+#form button {
+    padding: 10px;
+    margin: 10px 10px 10px 0px;
+    
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#form button#btn-reset{
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+.btn-control{
+    display: flex;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-control{
+    margin: 0px 0px 20px 0px;
+}
+
+.gender-options {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    margin: 4px 0px;
+    font-size: 12px;
+
+}
+
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 0px;
+    padding: initial;
+    border: initial;
+}
+
+input#female{
+    margin-left: 20px;
+}
+
+.input-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+    margin: 5px 0px;
+	width: 100%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 12px;
+}
+
+
+label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.warning{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.copyright{
+    color: whitesmoke;
+    margin: 0px 20px ;
+}
+
+.button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.btn-download, .btn-konsultasi{
+    cursor: pointer;
+}
+.btn-download:hover, .btn-konsultasi:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #0f2027;
+}
+
+

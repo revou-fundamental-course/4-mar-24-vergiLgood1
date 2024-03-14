@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="src/style/global.css">
+</head>
+<body>
+
+    <main>
+        <section>
+            <div class="title">
+                <header>
+                    <h2>Kalkulator BMI</h2>
+                </header>
+                <div>
+                    <p>
+                        Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di kalkulator BML
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- <section>
+            <div class="features">
+                <header>
+                    <h2>Our features</h2>
+                </header>
+                <div>
+                    <span>menghtung berat badan</span>
+                    <span>menentukan berat badan ideal atau tidak</span>
+                    <span>mempersiapkan program penurunan berat badan</span>
+                </div>
+                <div class="disclaimer">
+                    <h2>Disclaimer</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt quis
+                        dicta sed libero quae, facilis veritatis non suscipit ad magni,
+                        laudantium alias doloribus provident, reprehenderit neque autem
+                        incidunt amet itaque.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi nulla
+                        tempora distinctio? Nobis molestias tempora beatae illum corrupti
+                        totam voluptas et error possimus, nam, architecto eius autem,
+                        molestiae assumenda accusamus!
+                    </p>
+                </div>
+            </div>
+        </section> -->
+        <section>
+            <div class="split-screen">
+                <div class="container form-container">
+                    <form id="form" action="/" method="get">
+                        <h2>Masukkan data anda</h2>
+                        <div class="input-control">
+                            <label for="name">Nama</label>
+                            <input type="text" name="name" id="name">
+                            <div class="error"></div>
+                        </div>
+                        <div class="radio-control">
+                            <label>Jenis kelamin</label>
+                            <div class="gender-options" id="gender">
+                                <input type="radio" name="gender" id="male" value="male" checked>
+                                <label for="male">Pria</label>
+                                <input type="radio" name="gender" id="female" value="female">
+                                <label for="female">Wanita</label>
+                                <div class="error"></div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="input-control">
+                            <label for="weight">Berat badan</label>
+                            <input type="number" name="weight" id="weight">
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-control">
+                            <label for="height">Tinggi badan</label>
+                            <input type="number" name="height" id="height">
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-control">
+                            <label for="age">Usia</label>
+                            <input type="text" name="age" id="age">
+                            <div class="error"></div>
+                        </div>
+                        
+                        <div class="btn-control">
+                            <button type="submit">Submit</button>
+                            <button type="reset" id="btn-reset">Reset</button>
+                        </div>
+                       
+                    </form>
+                </div>
+                <div class="container-output" id="containerOutput">
+                    <h2>Hasil</h2>
+                    <div class="hasilBmi">
+                        <div id="category" class="category">
+                            <span>Hsil</span>
+                        </div>
+                        <div id="scoreBmi" class="skorBmi" >
+                            <span>24</span>
+
+                        </div>
+                        <div class="category2" id="category2"> 
+                            <span>loremmmmmm</span>
+                        </div>
+                        <div class="conclusion" id="suggestion">
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, tempore. Culpa quod, hic error tempora id at asperiores, vero quibusdam dolorem corrupti ratione et consequuntur aut placeat veniam, ab modi!</span>
+    
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="button">
+                        <button type="button" id="konsultasi" class="btn-konsultasi" >Konsultasi online</button>
+                        <button type="button" id="download" class="btn-download">Download hasil BMI</button>
+                    </div>
+                </div>
+              
+            </div>
+            
+        </section>
+
+        <section>
+            <div class="warning" id="warning">
+                <header>
+                    <h2 >warning</h2>
+                </header>
+                <p>
+                    Penyakit yang muncul ketika kelebihan berat badan
+                    <span>Diabetes</span>
+                    <span>Hipertensi</span>
+                    <span>Sakit lambung</span>
+                    <span>Obesitas</span>
+                </p>
+            </div>
+        </section>
+       
+    </main>
+
+    <footer>
+        <div class="copyright">
+            <h1>Kopi kanan</h1>
+        </div>
+    </footer>
+    
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
