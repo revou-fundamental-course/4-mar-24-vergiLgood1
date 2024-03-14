@@ -125,14 +125,14 @@ document.addEventListener('DOMContentLoaded', function() {
    const BmiCategory = (bmiScore, gender) => {
        const categories = {
            'Pria': [
-               { min: 0, max: 18.5, category: 'Kekurangan berat badan', suggestion: 'berada dalam kategori kekurangan berat badan. Disarankan untuk berkonsultasi dengan dokter atau ahli gizi untuk merencanakan diet seimbang yang sesuai dengan kebutuhan tubuh Anda.' },
+               { min: 0, max: 18.5, category: 'Kekurangan berat badan', suggestion: 'berada dalam kategori kekurangan berat badan. Disarankan untuk berkonsultasi dengan dokter atau ahli gizi untuk merencanakan gizi seimbang yang sesuai dengan kebutuhan tubuh Anda.' },
                { min: 18.5, max: 24.9, category: 'normal (ideal)', suggestion: 'berada dalam kategori berat badan normal (ideal). Pertahankan pola makan sehat dan olahraga teratur untuk menjaga kesehatan tubuh Anda.' },
                { min: 25, max: 29.9, category: 'kelebihan berat badan', suggestion: 'berada dalam kategori kelebihan berat badan. Disarankan untuk mengatur pola makan dan meningkatkan aktivitas fisik. Hindari makanan tinggi lemak dan gula, serta rutin berolahraga untuk mencapai berat badan yang sehat.' },
                { min: 30, max: Infinity, category: 'kegemukan (obesitas)', suggestion: 'berada dalam kategori kegemukan (obesitas). Penting untuk segera mengambil tindakan untuk menurunkan berat badan demi kesehatan yang lebih baik. Pertimbangkan untuk berkonsultasi dengan dokter atau ahli gizi untuk membuat rencana penurunan berat badan yang efektif dan berkelanjutan.' }
            ],
    
            'Wanita': [
-               { min: 0, max: 18.5, category: 'kekurangan berat badan', suggestion: 'berada dalam kategori kekurangan berat badan. Disarankan untuk berkonsultasi dengan dokter atau ahli gizi untuk merencanakan diet seimbang yang sesuai dengan kebutuhan tubuh Anda.' },
+               { min: 0, max: 18.5, category: 'kekurangan berat badan', suggestion: 'berada dalam kategori kekurangan berat badan. Disarankan untuk berkonsultasi dengan dokter atau ahli gizi untuk merencanakan gizi seimbang yang sesuai dengan kebutuhan tubuh Anda.' },
                { min: 18.5, max: 24.9, category: 'normal (ideal)', suggestion: 'berada dalam kategori berat badan normal (ideal). Pertahankan pola makan sehat dan olahraga teratur untuk menjaga kesehatan tubuh Anda.' },
                { min: 25, max: 29.9, category: 'kelebihan berat badan', suggestion: 'berada dalam kategori kelebihan berat badan. Disarankan untuk mengatur pola makan dan meningkatkan aktivitas fisik. Hindari makanan tinggi lemak dan gula, serta rutin berolahraga untuk mencapai berat badan yang sehat.' },
                { min: 30, max: Infinity, category: 'kegemukan (obesitas)', suggestion: 'berada dalam kategori kegemukan (obesitas). Penting untuk segera mengambil tindakan untuk menurunkan berat badan demi kesehatan yang lebih baik. Pertimbangkan untuk berkonsultasi dengan dokter atau ahli gizi untuk membuat rencana penurunan berat badan yang efektif dan berkelanjutan.' }
@@ -166,11 +166,11 @@ document.addEventListener('DOMContentLoaded', function() {
            categoryDisplay.innerHTML  = `Hello ${username}. Untuk jenis kelamin ${gender}, Kamu termasuk ke dalam kategori ${category}.`;
            scoreDisplay.innerHTML  = `${bmiScore.toFixed(2)}`;
            categoryDisplay2.innerHTML = `Anda ${category}`
-           suggestionDisplay.innerHTML  = `${suggestion}.`;
+           suggestionDisplay.innerHTML  = `Anda ${suggestion}.`;
      
-        // Pengkondisian untuk menampilkan atau menyembunyikan pesan warning
-           warning.style.display = category === 'kegemukan (obesitas)' ? 'block' : 'none';
+        // Pengkondisian untuk menampilkan atau menyembunyikan pesan warning 
            containerOutput.style.display = validateInputs ? 'block' : 'none'
+           warning.style.display = category === 'kegemukan (obesitas)' ? 'block' : 'none';
         
        } else {
            console.error('Unable to find BMI category.');
