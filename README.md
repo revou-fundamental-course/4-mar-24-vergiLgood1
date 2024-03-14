@@ -15,6 +15,9 @@
 <p>Jika terjadi kesalahan pada pengisian formulir, pesan error akan ditampilkan.</p>
 <p>Anda dapat menekan tombol "Reset" untuk membersihkan formulir dan menyembunyikan output.</p>
 
+<h2>Link</h2>
+<p>https://revou-fundamental-course.github.io/4-mar-24-vergiLgood1/</p>
+
 <h2>Terimakasih RevoU</h2>
 <p>diyo anggara.</p>
 
