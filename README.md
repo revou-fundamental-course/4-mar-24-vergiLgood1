@@ -18,7 +18,7 @@
 <h2>Link</h2>
 <p>https://revou-fundamental-course.github.io/4-mar-24-vergiLgood1/</p>
 
-<h2>Terimakasih RevoU & mutual github dong wkwkwkwk</h2>
+<h2>Terimakasih RevoU/h2>
 <p>diyo anggara.</p>
 
 
